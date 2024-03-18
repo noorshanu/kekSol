@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lh-1 {
+  line-height: 1;
+}
+.lh-1_1 {
+  line-height: 1.1;
+}
+.lh-1_2 {
+  line-height: 1.2;
+}
+.lh-1_3 {
+  line-height: 1.3;
+}
+.lh-1_4 {
+  line-height: 1.4;
+}
+.lh-1_5 {
+  line-height: 1.5;
+}
+.lh-1_6 {
+  line-height: 1.6;
+}
+.lh-1_7 {
+  line-height: 1.7;
+}
+.lh-1_8 {
+  line-height: 1.8;
+}
+.lh-1_9 {
+  line-height: 1.9;
+}
+
+@layer base {
+  * {
+    @apply font-outfit scroll-smooth;
+  }
+
+  html,
+  body {
+    @apply bg-bg text-white overflow-x-hidden;
+  }
+
+  .container-wrapper {
+    @apply max-w-[1280px] w-[90%] mx-auto;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(
+    89.47deg,
+    #ffffff 49.54%,
+    #aae33e 78.35%,
+    #fb7f35 115.39%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+.black-screen.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+/* ANIMATED black-screen */
+
+.black-screen-animated {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.black-screen-animated.show {
+  animation-name: fade-in;
+}
+
+.black-screen-animated.hide {
+  animation-name: fade-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.float {
+  --speed: 6s;
+  --lifting: -10px;
+
+  animation: float var(--speed) ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(var(--lifting));
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
