@@ -65,16 +65,16 @@ function Hero() {
         </h1>
 
         <p className="text-center mb-6 sm:mb-10">
-          Trade like a Meme Master with Kek Ai
+          Trade like a Meme Master with KekSol
         </p>
 
-        <div className="grid grid-cols-[130px_130px] xl:grid-cols-[164.84px_164.84px_164.84px_164.84px] items-center justify-center gap-6 text-[80%] xl:text-[100%]">
-        <Button variant={1} className='flex justify-center gap-1' href='https://pancakeswap.finance/swap?outputCurrency=0xEDddaD89d602Dfc22d90a9EeE81Fe72Dadf9faac'  target="_blank" rel="noreferrer">BUY NOW <img src="images/pcake.svg" className="h-[20px]"/></Button>
+        <div className="grid grid-cols-[130px_130px] xl:grid-cols-[164.84px_164.84px] items-center justify-center gap-6 text-[80%] xl:text-[100%]">
+        <Button variant={1} className='flex justify-center gap-1' href='#'  target="_blank" rel="noreferrer">DexTools</Button>
         {/* <CopyToClipboard onClick={onCopy} text={value}> */}
-          <Button className='cursor-pointer' >Contract </Button>
+          <Button className='cursor-pointer' > Telegram </Button>
          {/* </CopyToClipboard> */}
-          <Button href='https://kekai.gitbook.io/docs/'>Whitepaper</Button>
-          <Button href='https://www.dexview.com/bsc/0xEDddaD89d602Dfc22d90a9EeE81Fe72Dadf9faac'target="_blank" rel="noreferrer">Chart</Button>
+         
+         
         </div>
 
         <div className="flex items-center justify-center mt-8 sm:mt-10 space-x-[.8em] text-[140%] xl:text-[160%]">

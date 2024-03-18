@@ -5,7 +5,7 @@ function Logo({ className }) {
       <img src="images/logo.png" className="w-[2.625em]" alt="" />
 
       </a>
-      <h1 className="text-[1em] font-bold">KeK AI</h1>
+      <h1 className="text-[1em] font-bold">KeKSol</h1>
     </div>
   );
 }
