@@ -27,10 +27,10 @@ function Footer() {
       <div className="container-wrapper">
         <div className="py-7 flex flex-col lg:flow-row space-y-4 lg:space-y-0 items-center justify-between">
           <p className="text-center lg:text-left opacity-50">
-            © Copyright 2023, All Rights Reserved by Kekcoin
+            © Copyright 2024, All Rights Reserved by KekSol
           </p>
           <p className="text-center lg:text-left opacity-50">
-            We Love you PePe ❤️
+            We Love you Solana ❤️
           </p>
         </div>
       </div>
