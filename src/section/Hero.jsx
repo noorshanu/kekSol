@@ -160,7 +160,7 @@ function Hero() {
               Welcome to KekAI, the ultimate platform that combines the power of
               memes and artificial intelligence to revolutionize your crypto
               trading journey. Get ready to embrace the fun, excitement, and
-              cutting-edge technology that Kek AI brings to the world of
+              cutting-edge technology that KekSol brings to the world of
               cryptocurrency. With our meme-driven approach and advanced AI
               analysis Platform + Wallet, {"you'll"} gain unique insights, make
               informed trading decisions, and become a true Meme Trader. with
