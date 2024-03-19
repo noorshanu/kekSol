@@ -150,6 +150,7 @@ function Hero() {
                 playsInline
                 controls
                 autoPlay={true}
+                loop={true}
                 muted="muted"
                 // autoPlay={true}
                 // loop={true}
