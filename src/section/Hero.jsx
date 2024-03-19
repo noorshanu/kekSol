@@ -161,7 +161,7 @@ function Hero() {
             </div>
 
             <p className="text-center">
-              Welcome to KekAI, the ultimate platform that combines the power of
+              Welcome to KekSol, the ultimate platform that combines the power of
               memes and artificial intelligence to revolutionize your crypto
               trading journey. Get ready to embrace the fun, excitement, and
               cutting-edge technology that KekSol brings to the world of
