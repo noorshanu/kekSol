@@ -62,7 +62,7 @@ function Navbar() {
               >
                 ROADMAP
               </ScrollLink>
-              <a href="https://bscscan.com/address/0xEDddaD89d602Dfc22d90a9EeE81Fe72Dadf9faac" target="_blank" rel="noreferrer">Contract</a>
+              <a href="https://solscan.io/token/ByhNsBd5htq5r3x2SRVNNQawpq3oyz9QgNYn6Fjf5Hsb" target="_blank" rel="noreferrer">Contract</a>
             </div>
           )}
 
@@ -125,7 +125,7 @@ function Navbar() {
             )}
 
             <div className="text-[80%] xl:text-[100%] mt-6 lg:mt-0">
-              <Button href='https://t.me/kekaibsc' className="w-full lg:w-auto flex justify-center gap-3 items-center">Telegram   <FaTelegramPlane className="text-[1em] text-black" /></Button>
+              <Button href='https://t.me/keksoll' className="w-full lg:w-auto flex justify-center gap-3 items-center">Telegram   <FaTelegramPlane className="text-[1em] text-black" /></Button>
             </div>
           </div>
 
