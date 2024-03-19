@@ -7,35 +7,25 @@ function SocialIcons() {
   return (
     <>
       <a
-        href="https://instagram.com/kekaibsc" target="_blank"  rel="noreferrer"
+        href="#" target="_blank"  rel="noreferrer"
         className="transition-all duration-100 text-[1em] text-primary hover:text-white"
       >
         <AiFillInstagram />
       </a>
+  
       <a
-        href="https://www.reddit.com/r/kekai/" target="_blank"  rel="noreferrer"
-        className="transition-all duration-100 text-[1em] text-primary hover:text-white"
-      >
-        <FaReddit />
-      </a>
-      <a
-        href="https://t.me/kekaibsc" target="_blank"  rel="noreferrer"
+        href="https://t.me/keksoll" target="_blank"  rel="noreferrer"
         className="transition-all duration-100 text-[1em] text-primary hover:text-white"
       >
         <FaTelegramPlane />
       </a>
       <a
-        href="https://twitter.com/kekaibsc" target="_blank"  rel="noreferrer"
+        href="https://twitter.com/KekSolll" target="_blank"  rel="noreferrer"
         className="transition-all duration-100 text-[1em] text-primary hover:text-white"
       >
         <FaTwitter />
       </a>
-      <a
-        href="http://kekaibsc.medium.com/" target="_blank"  rel="noreferrer"
-        className="transition-all duration-100 text-[1em] text-primary hover:text-white"
-      >
-        <BsMedium />
-      </a>
+ 
     </>
   );
 }

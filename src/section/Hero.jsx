@@ -71,7 +71,7 @@ function Hero() {
         <div className="grid grid-cols-[130px_130px] xl:grid-cols-[164.84px_164.84px] items-center justify-center gap-6 text-[80%] xl:text-[100%]">
         <Button variant={1} className='flex justify-center gap-1' href='#'  target="_blank" rel="noreferrer">DexTools</Button>
         {/* <CopyToClipboard onClick={onCopy} text={value}> */}
-          <Button className='cursor-pointer' > Telegram </Button>
+          <Button className='cursor-pointer ' href='https://t.me/keksoll' target='_blank' > Telegram </Button>
          {/* </CopyToClipboard> */}
          
          
