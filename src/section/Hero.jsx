@@ -60,14 +60,17 @@ function Hero() {
         />
 
         <h1 className="text-center font-extrabold text-gradient text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lh-1_2 mb-6 sm:mb-8">
-          Unleash the Power of Memes <br className="hidden sm:block" /> and AI
-          in Crypto Trading
+        Unlock the Magic of keksol <br className="hidden sm:block" /> and AI in Your Crypto Trading Adventure
         </h1>
 
-        <p className="text-center mb-6 sm:mb-10">
+        <p className="text-center mb-6 sm:mb-6">
           Trade like a Meme Master with KekSol
         </p>
+        
+        <a href="https://solscan.io/token/ByhNsBd5htq5r3x2SRVNNQawpq3oyz9QgNYn6Fjf5Hsb" className=" text-center flex justify-center pb-4 text-sm sm:text-base font-medium ">
+          Contract : ByhNsBd5htq5r3x2SRVNNQawpq3oyz9QgNYn6Fjf5Hsb
 
+        </a>
         <div className="grid grid-cols-[130px_130px] xl:grid-cols-[164.84px_164.84px] items-center justify-center gap-6 text-[80%] xl:text-[100%]">
         <Button variant={1} className='flex justify-center gap-1' href='#'  target="_blank" rel="noreferrer">DexTools</Button>
         {/* <CopyToClipboard onClick={onCopy} text={value}> */}
