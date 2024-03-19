@@ -145,7 +145,7 @@ function Hero() {
             <div className="w-full rounded-xl border-1 overflow-hidden mb-6 lg:mb-12">
               <video
                 ref={videoRef}
-                src="images/video.mp4"
+                src="/images/todo.mp4"
                 className="w-full"
                 playsInline
                 controls
