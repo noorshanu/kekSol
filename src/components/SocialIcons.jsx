@@ -6,12 +6,12 @@ import {AiFillInstagram} from 'react-icons/ai'
 function SocialIcons() {
   return (
     <>
-      <a
+      {/* <a
         href="#" target="_blank"  rel="noreferrer"
         className="transition-all duration-100 text-[1em] text-primary hover:text-white"
       >
         <AiFillInstagram />
-      </a>
+      </a> */}
   
       <a
         href="https://t.me/keksoll" target="_blank"  rel="noreferrer"
